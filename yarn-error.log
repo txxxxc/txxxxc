@@ -1,0 +1,61 @@
+Arguments: 
+  /usr/local/Cellar/node/16.0.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js
+
+PATH: 
+  /Users/tt/.anyenv/envs/nodenv/libexec:/Users/tt/.anyenv/envs/nodenv/plugins/nodenv-vars/bin:/Users/tt/.anyenv/envs/nodenv/plugins/nodenv-default-packages/bin:/Users/tt/.anyenv/envs/nodenv/plugins/node-build/bin:/Users/tt/.anyenv/envs/rbenv/shims:/Users/tt/.anyenv/envs/rbenv/bin:/Users/tt/.anyenv/envs/pyenv/shims:/Users/tt/.anyenv/envs/pyenv/bin:/Users/tt/.anyenv/envs/nodenv/shims:/Users/tt/.anyenv/envs/nodenv/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/tt/.anyenv/envs/rbenv/shims:/Users/tt/.anyenv/envs/rbenv/bin:/Users/tt/.anyenv/envs/pyenv/shims:/Users/tt/.anyenv/envs/pyenv/bin:/Users/tt/.anyenv/envs/nodenv/shims:/Users/tt/.anyenv/envs/nodenv/bin:/usr/local/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/tt/workspace/Tomoya113/package.json: Unexpected string in JSON at position 204
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "Tomoya113",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/Tomoya113/Tomoya113",
+    "author": "Tomoya Tanaka <tomoya113.code@gmail.com>",
+    "license": "MIT"
+    "devDependencies": {
+      "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^1.0.1",
+      "md-to-pdf": "^3.1.1",
+      "textlint": "^11.6.3",
+      "textlint-filter-rule-comments": "^1.2.2",
+      "textlint-filter-rule-whitelist": "^2.0.0",
+      "textlint-rule-abbr-within-parentheses": "^1.0.2",
+      "textlint-rule-footnote-order": "^1.0.3",
+      "textlint-rule-general-novel-style-ja": "^1.3.0",
+      "textlint-rule-ja-hiragana-fukushi": "^1.2.0",
+      "textlint-rule-ja-hiragana-hojodoushi": "^1.0.4",
+      "textlint-rule-ja-hiragana-keishikimeishi": "^1.0.2",
+      "textlint-rule-ja-unnatural-alphabet": "^2.0.1",
+      "textlint-rule-ng-word": "^1.0.0",
+      "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
+      "textlint-rule-period-in-list-item": "^0.3.2",
+      "textlint-rule-prefer-tari-tari": "^1.0.3",
+      "textlint-rule-preset-ja-spacing": "^2.0.2",
+      "textlint-rule-preset-ja-technical-writing": "^3.1.3",
+      "textlint-rule-preset-jtf-style": "^2.3.4",
+      "textlint-rule-prh": "^5.3.0",
+      "textlint-rule-spellcheck-tech-word": "^5.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
