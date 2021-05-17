@@ -1,6 +1,11 @@
-### Hi there 👋
+## Hi there 👋
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Tomoya113&layout=compact)](https://github.com/Tomoya113/github-readme-stats)
+
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Tomoya113)](https://github.com/Tomoya113/github-readme-stats)
+
+## Social
+[Qiita](https://qiita.com/tanaka-tt)
 
 
 <h3 align="left">Languages and Tools:</h3>
